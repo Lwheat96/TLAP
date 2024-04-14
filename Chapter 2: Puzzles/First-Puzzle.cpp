@@ -3,12 +3,8 @@
 
 int main() {
 for (int row = 1; row <= 5; row++) {
-    for (int hashNum = 1; hashNum <= 5; hashNum++) {
+    for (int hashNum = 1; hashNum <= 6 - row; hashNum++) {
         std::cout << "#";
-        /*if (row < 5; hashNum--){
-
-            std::cout << hashNum--;
-        }*/
     }
     std::cout << "\n";
 }
